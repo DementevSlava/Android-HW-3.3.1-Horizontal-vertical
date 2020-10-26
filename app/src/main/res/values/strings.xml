@@ -36,4 +36,13 @@
     <string name="m_plus">M+</string>
     <string name="m_minus">M-</string>
     <string name="switch_calc">Switch calc</string>
+    <string name="sqrt">Sqrt</string>
+    <string name="sinh">sinh</string>
+    <string name="cosh">cosh</string>
+    <string name="tanh">tanh</string>
+    <string name="ctanh">ctanh</string>
+    <string name="ctan">ctan</string>
+    <string name="tan">tan</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
 </resources>

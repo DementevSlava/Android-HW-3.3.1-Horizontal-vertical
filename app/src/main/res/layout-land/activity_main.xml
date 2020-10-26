@@ -40,7 +40,7 @@
 
         <LinearLayout
             android:id="@+id/linearLayoutName"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/numberField"
             android:layout_marginTop="16dp"
@@ -130,50 +130,40 @@
                     app:layout_constraintStart_toEndOf="@+id/sevenLetter"
                     app:layout_constraintTop_toTopOf="parent" />
 
-
             </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <LinearLayout
-                android:id="@+id/firstRowLayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:background="#cccccc">
-
-                <Button
-                    android:id="@+id/clearBtn"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/clear" />
-
-                <Button
-                    android:id="@+id/signBtn"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/sign" />
-
-                <Button
-                    android:id="@+id/percentBtn"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/percent" />
-
-                <Button
-                    android:id="@+id/divisionBtn"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/div" />
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/secondRowLayout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#cccccc">
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/MC"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mc" />
+
+                <Button
+                    android:id="@+id/MR"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mr" />
+
+                <Button
+                    android:id="@+id/mPlus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/m_plus" />
+                <Button
+                    android:id="@+id/mMinus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/m_minus"
+                    />
 
                 <Button
                     android:id="@+id/sevenBtn"
@@ -208,9 +198,34 @@
                 android:id="@+id/thirdRowLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/secondRowLayout"
-                android:background="#cccccc">
+                >
+                <Button
+                    android:id="@+id/clearBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/clear" />
 
+                <Button
+                    android:id="@+id/signBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sign" />
+
+                <Button
+                    android:id="@+id/percentBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/percent" />
+
+                <Button
+                    android:id="@+id/sqrt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sqrt" />
                 <Button
                     android:id="@+id/fourBtn"
                     android:layout_width="0dp"
@@ -244,9 +259,31 @@
                 android:id="@+id/fourRowLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/thirdRowLayout"
-                android:background="#cccccc">
-
+                >
+                <Button
+                    android:id="@+id/cos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cos" />
+                <Button
+                    android:id="@+id/sin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sin" />
+                <Button
+                    android:id="@+id/tan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tan" />
+                <Button
+                    android:id="@+id/cTan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ctan" />
                 <Button
                     android:id="@+id/oneBtn"
                     android:layout_width="0dp"
@@ -279,14 +316,37 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/fourRowLayout"
-                android:background="#cccccc">
+                >
+                <Button
+                    android:id="@+id/sinH"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sinh" />
+                <Button
+                    android:id="@+id/cosH"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cosh" />
+                <Button
+                    android:id="@+id/tanH"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tanh" />
+                <Button
+                    android:id="@+id/cTanH"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ctanh" />
 
                 <Button
                     android:id="@+id/zeroBtn"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="2"
+                    android:layout_weight="1"
                     android:text="@string/zero" />
 
                 <Button
@@ -302,6 +362,13 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/equal" />
+
+                <Button
+                    android:id="@+id/divisionBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/div" />
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

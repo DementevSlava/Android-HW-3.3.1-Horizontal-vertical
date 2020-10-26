@@ -23,22 +23,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final View regularCalculator = findViewById(R.id.regularCalculator);
-        final View engineerCalculator = findViewById(R.id.engineerCalculator);
-        findViewById(R.id.switchBtn).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isUsual){
-                    regularCalculator.setVisibility(View.INVISIBLE);
-                    engineerCalculator.setVisibility(View.VISIBLE);
-                    isUsual = false;
-                } else {
-                    regularCalculator.setVisibility(View.VISIBLE);
-                    engineerCalculator.setVisibility(View.INVISIBLE);
-                    isUsual = true;
-                }
-            }
-        });
-
 
         init();
     }
