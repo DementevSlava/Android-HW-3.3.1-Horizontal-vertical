@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="seven">7</string>
+    <string name="zero">0</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="point">.</string>
+    <string name="div">/</string>
+    <string name="clear">C</string>
+    <string name="percent">%</string>
+    <string name="multiply">*</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="equal">=</string>
+    <string name="sign">+/-</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="M">M</string>
+    <string name="N">N</string>
+    <string name="T">T</string>
+    <string name="V">V</string>
+    <string name="u221a">√</string>
+    <string name="x_u00b2">X²</string>
+    <string name="x_u005ey">X^y</string>
+    <string name="fact">n!</string>
+    <string name="_00">00</string>
+    <string name="mc">MC</string>
+    <string name="mr">MR</string>
+    <string name="ms">MS</string>
+    <string name="m_plus">M+</string>
+    <string name="m_minus">M-</string>
+    <string name="switch_calc">Switch calc</string>
+</resources>
